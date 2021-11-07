@@ -40,13 +40,13 @@
 
 @media screen and (max-width: 683px) {
     .place__paragraph {
-        max-width: 220px;
+        max-width: 300px;
     }
 }
 
 @media screen and (max-width: 425px) {
     .place__paragraph {
-        max-width: 150px;
+        max-width: 280px;
     }
 }
 

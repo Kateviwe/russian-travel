@@ -39,7 +39,7 @@
 
 @media screen and (max-width: 425px) {
     .place {
-        max-width: 52.08333vw;
+        max-width: 70vw;
         grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     }
 }
