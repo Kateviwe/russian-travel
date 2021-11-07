@@ -1,0 +1,24 @@
+.lead {
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    max-width: 76.875vw;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+    .lead {
+        max-width: 90.625vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead {
+        max-width: 100vw;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .lead {
+        max-width: 100vw;
+    }
+}

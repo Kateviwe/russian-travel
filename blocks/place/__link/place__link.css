@@ -1,0 +1,25 @@
+.place__link {
+    color: rgba(255, 255, 255, 1);
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.place__link:hover {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 425px) {
+    .place__link {
+        font-size: 15px;
+        line-height: 19px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place__link {
+        font-size: 18px;
+        line-height: 22px;
+    }
+}

@@ -1,0 +1,36 @@
+.place__website {
+    align-self: end;
+    max-width: 456px;
+}
+
+@media screen and (max-width: 940px) {
+    .place__website {
+        max-width: 385px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place__website {
+        max-width: 352px;
+    }
+}
+
+@media screen and (max-width: 683px) {
+    .place__website {
+        max-width: 220px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .place__website {
+        max-width: 200px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place__website {
+        max-width: 288px;
+        padding-bottom: 32px;
+        padding-left: 16px;
+    }
+}
