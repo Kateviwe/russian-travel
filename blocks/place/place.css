@@ -1,6 +1,6 @@
 .place {
     color: rgba(255, 255, 255, 1);
-    max-width: 76.875vw;
+    max-width: 76.875%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(460px, 1fr));
     row-gap: 48px;

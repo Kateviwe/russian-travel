@@ -1,5 +1,6 @@
 .photo-grid__item {
-    max-width: calc(284*100vw/1280);
+    max-width: 284px;
+    justify-self: center;
 }
 
 
