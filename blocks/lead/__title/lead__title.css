@@ -6,25 +6,11 @@
     font-style: normal;
     font-size: 96px;
     line-height: 100px;
-    max-width: calc(720*100%/984);
-}
-
-@media screen and (max-width: 1024px) {
-    .lead__title {
-        max-width: calc(720*100%/928);
-    }
-}
-
-@media screen and (max-width: 835px) {
-    .lead__title {
-        font-size: 60px;
-        line-height: 64px;
-    }
+    max-width: 720px;
 }
 
 @media screen and (max-width: 768px) {
     .lead__title {
-        max-width: 93.75vw;
         font-size: 96px;
         line-height: 100px;
     }

@@ -1,6 +1,11 @@
 .cover {
     color: rgba(255, 255, 255, 1);
     max-width: 92.5%;
+    height: 57.8125vw;
+    max-height: 740px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     position: relative;
     margin: 0 auto;
@@ -10,17 +15,21 @@
 @media screen and (max-width: 1024px) {
     .cover {
         max-width: 100vw;
+        height: 62.5vw;
+        max-height: 640px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .cover {
         padding-top: 90px;
+        max-height: 480px;
     }
 }
 
 @media screen and (max-width: 320px) {
     .cover {
         padding-top: 66px;
+        max-height: 200px;
     }
 }
