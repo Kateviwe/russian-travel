@@ -26,10 +26,17 @@
     }
 }
 
+@media screen and (max-width: 600px) {
+    .place__paragraph {
+        font-size: 12px;
+        line-height: 22px;
+    }
+}
+
 @media screen and (max-width: 425px) {
     .place__paragraph {
-        font-size: 13px;
-        line-height: 23px;
+        font-size: 9px;
+        line-height: 19px;
     }
 }
 

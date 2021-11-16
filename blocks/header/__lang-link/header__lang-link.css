@@ -1,29 +1,19 @@
 .header__lang-link {
     color: rgba(255, 255, 255, 1);
-    min-width: 30px;
-    min-height: 28px;
-    padding-right: calc(18px + 30px);
     text-decoration: none;
     font-weight: 400;
     font-style: normal;
     font-size: 24px;
     line-height: 28px;
-    justify-self: end;
-    grid-area: header__lang-link;
+    padding-left: 18px;
 }
 
 .header__lang-link:hover {
     opacity: 0.8;
 }
 
-.header__lang-link:last-of-type {
-    padding-right: 0;
-}
-
 @media screen and (max-width: 320px) {
     .header__lang-link {
-        min-width: 22px;
-        min-height: 20px;
         font-size: 18px;
         line-height: 20px;
     }

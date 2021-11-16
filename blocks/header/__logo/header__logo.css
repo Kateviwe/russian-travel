@@ -3,7 +3,6 @@
     width: 176px;
     height: 52px;
     background-repeat: no-repeat;
-    grid-area: header__logo;
 }
 
 @media screen and (max-width: 320px) {

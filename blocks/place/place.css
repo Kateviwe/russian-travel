@@ -2,7 +2,7 @@
     color: rgba(255, 255, 255, 1);
     max-width: 76.875%;
     display: grid;
-    grid-template-columns: 460px 1fr;
+    grid-template-columns: calc(460*100%/984) 1fr;
     row-gap: 48px;
     column-gap: 40px;
     margin: 0 auto;
@@ -16,7 +16,7 @@
 @media screen and (max-width: 1024px) {
     .place {
         max-width: 90.625vw;
-        grid-template-columns: 440px 1fr;
+        grid-template-columns: calc(440*100%/928) 1fr;
         column-gap: 32px;
     }
 }
@@ -24,24 +24,21 @@
 @media screen and (max-width: 768px) {
     .place {
         max-width: 93.75vw;
-        grid-template-columns: 340px 1fr;
+        grid-template-columns: calc(340*100%/720) 1fr;
         column-gap: 28px;
         padding-bottom: 73px;
     }
 }
 
-@media screen and (max-width: 683px) {
+@media screen and (max-width: 600px) {
     .place {
-        max-width: 95vw;
-        grid-template-columns: 240px 1fr;
-        column-gap: 15px;
+        column-gap: 17px;
     }
 }
 
 @media screen and (max-width: 425px) {
     .place {
-        grid-template-columns: 150px 1fr;
-        column-gap: 10px;
+        column-gap: 7px;
     }
 }
 

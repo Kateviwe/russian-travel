@@ -10,17 +10,17 @@
     opacity: 0.8;
 }
 
-@media screen and (max-width: 683px) {
+@media screen and (max-width: 600px) {
     .place__link {
-        font-size: 13px;
-        line-height: 17px;
+        font-size: 15px;
+        line-height: 19px;
     }
 }
 
 @media screen and (max-width: 425px) {
     .place__link {
-        font-size: 11px;
-        line-height: 15px;
+        font-size: 12px;
+        line-height: 16px;
     }
 }
 

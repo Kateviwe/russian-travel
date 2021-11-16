@@ -12,10 +12,6 @@
     z-index: 1;
 }
 
-.cover__subtitle:hover~.cover__overlay {
-    opacity: 0.8;
-}
-
 @media screen and (max-width: 1024px) {
     .cover__subtitle {
         width: calc(360*100vw/1024);
